@@ -1,0 +1,148 @@
+.content {
+    max-width: 1512px;
+    padding: 70px 40px;
+}
+
+.content__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header-register_button {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFA929;
+    text-decoration: none;
+    color: #000;
+    width: 137px;
+    height: 50px;
+    padding: 13px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px #0000001A;
+}
+
+.header-register_button:hover {
+    background-color: #DF9425;
+}
+
+.form__search-input {
+    width: 240px;
+    height: 50px;
+    border: solid 1px #E0DFDE;
+    border-radius: 25px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.form__search-input::placeholder {
+    color: #E0DFDE;
+}
+
+.form__button-submit {
+    width: 240px;
+    height: 44px;
+    background-color: #F5C800;
+    font-weight: 600;
+    border: none;
+    color: #4B4B4B;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px #0000001A;
+    cursor: pointer;
+}
+
+.form__button-submit:hover {
+    background-color: #DDB400;
+}
+
+.content__main {
+    display: flex;
+    max-width: 1512px;
+}
+
+.content__main--side {
+    width: 240px;
+    border-bottom: solid 1px #E0DFDE;
+}
+
+.sort {
+    margin-top: 40px;
+}
+
+.sort-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+
+.sort-select {
+    width: 240px;
+    height: 43px;
+    border-radius: 5px;
+    border: solid 1px #E0DFDE;
+    outline: none;
+}
+
+.sort-select:has(option:checked[value=""]) {
+    color: #E0DFDE;
+}
+
+.content__main--center {
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 10px #0000001A;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.card__img img {
+    width: 100%;
+}
+
+.card__content {
+    padding: 0 25px;
+    background-color: #fff;
+}
+
+
+.card__content-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__content-tag-item {
+    color: #4B4B4B;
+    font-size: 24px;
+}
+
+.card__content-tag-item--last {
+    color: #4B4B4B;
+    font-size: 24px;
+}
+
+.content__list {
+    text-align: center;
+}
+
+svg.w-5.h-5 {
+    width: 30px;
+    height: 30px;
+}

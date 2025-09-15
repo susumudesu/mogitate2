@@ -1,0 +1,23 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1512px;
+}
+
+.header__logo {
+    color: #F5C800;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: cursive;
+    font-size: 30px;
+    font-style: italic;
+}
+
